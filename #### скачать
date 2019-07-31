@@ -1,0 +1,16 @@
+#### скачать
+https://{{host}}/get-mp3/{любые цыфры}/{{ts}}/{{path}}
+
+#### узнать урл для скачивания
+https://storage.mds.yandex.net/file-download-info/{{storageDir}}/2?sign=f5aa1d17033a9c1dbbb015a36ed7cab1edad7bc11c51109ca3f00c4a212abfd9&ts=5d3ea3ca&format=json&external-domain=music.yandex.ru&overembed=no&__t=1564397055017
+
+
+#### содержимое плайлиста
+https://music.yandex.ru/handlers/playlist.jsx?owner=r00tl0l&kinds=101&light=true&madeFor=&lang=ru&external-domain=music.yandex.ru&overembed=false&ncrnd=0.8926908172434902
+
+
+
+
+https://music.yandex.ru/api/v2.1/handlers/track/{{id трека}}:{{id альбома}}/web-own_playlists-playlist-track-saved/download/m?hq=0&external-domain=music.yandex.ru&overembed=no&__t=1564398857526
+
+#### список плайлистов у пользавателя
