@@ -1,17 +1,26 @@
-import sys
-from PyQt5.QtWidgets import QApplication, QSystemTrayIcon, QMenu
-from PyQt5.QtGui import QIcon
+import threading
 
+def writer(x, event_for_wait, event_for_set):
+    for i in range(10):
+        event_for_wait.wait() # wait for event
+        event_for_wait.clear() # clean event for future
+        print(x)
+        event_for_set.set() # set event for neighbor thread
 
-def action():
-    print('System tray icon clicked.')
+# init events
+e1 = threading.Event()
+e2 = threading.Event()
 
-app = QApplication(sys.argv)
-icon = QSystemTrayIcon(QIcon("www.png"), parent=app)
-icon.show()
+# init threads
+t1 = threading.Thread(target=writer, args=(0, e1, e2))
+t2 = threading.Thread(target=writer, args=(1, e2, e1))
 
-menu = QMenu(parent=None)
-menu.aboutToShow.connect(action)
-icon.setContextMenu(menu)
+# start threads
+t1.start()
+t2.start()
 
-sys.exit(app.exec_())
+e1.set() # initiate the first event
+
+# join threads to the main thread
+t1.join()
+t2.join()
