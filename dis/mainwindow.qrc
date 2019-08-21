@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="/myprefix">
+    <file>icons/play.ico</file>
+    <file>icons/pause.ico</file>
+    <file>icons/next.ico</file>
+    <file>icons/like.ico</file>
+    <file>icons/like-active.ico</file>
+    <file>icons/info.ico</file>
+    <file>icons/dislike.ico</file>
+    <file>icons/dislike-active.ico</file>
+    <file>icons/close.ico</file>
+    <file>icons/prev.ico</file>
+  </qresource>
+</RCC>

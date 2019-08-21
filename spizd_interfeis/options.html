@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="options.css">
+</head>
+
+<body>
+  <form class="options">
+    <div class="options__section">
+      <h2 class="options__title" data-i18n="optionsTitle"></h2>
+      <button class="options__button options__section-reset"
+        id="reset" data-i18n="optionsReset"></button>
+
+      <div class="options__list">
+        <div class="browser-style">
+          <input class="option__checkbox" type="checkbox" name="notifications"
+            id="notifications" />
+          <label class="options__label option__checkbox-label" for="notifications">
+            <span data-i18n="optionsListNotifications"></span>
+          </label>
+          <div class="option__checkbox-description option__checkbox-description_enabled" data-i18n="optionsListNotificationsEnabled"></div>
+          <div class="option__checkbox-description option__checkbox-description_disabled" data-i18n="optionsListNotificationsDisabled"></div>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="options__title" data-i18n="optionsHotkeys"></h3>
+
+      <div class="option__help">
+        <span data-i18n="optionsYouCanSet"></span><br/>
+        <span data-i18n="optionsSupportedKeysTitle"></span>:
+
+        <span class="hotkeys_combination">A–Z</span>, 
+        <span class="hotkeys_combination">0–9</span>, 
+        <span class="hotkeys_combination">F1–F12</span>, 
+        <span class="hotkeys_combination">Comma</span><span data-i18n="optionsKeyComma"></span>, 
+        <span class="hotkeys_combination">Period</span><span data-i18n="optionsKeyPeriod"></span>, 
+        <span class="hotkeys_combination">Home</span>, 
+        <span class="hotkeys_combination">End</span>, 
+        <span class="hotkeys_combination">PageUp</span>, 
+        <span class="hotkeys_combination">PageDown</span>, 
+        <span class="hotkeys_combination">Space</span><span data-i18n="optionsKeySpace"></span>, 
+        <span class="hotkeys_combination">Insert</span>, 
+        <span class="hotkeys_combination">Delete</span>, 
+        <span data-i18n="optionsKeyArrows"></span> 
+        (<span class="hotkeys_combination">Up</span>, 
+        <span class="hotkeys_combination">Down</span>, 
+        <span class="hotkeys_combination">Left</span>, 
+        <span class="hotkeys_combination">Right</span>).
+
+        <ul>
+          <li>
+            <span data-i18n="optionsRulesRequired"></span> 
+            <span class="mac-only"><span class="hotkeys_combination">Cmd</span>, 
+            </span><span class="hotkeys_combination">Ctrl</span> <span data-i18n="optionsRulesOr"></span> 
+            <span class="hotkeys_combination">Alt</span>;
+          </li>
+          <li>
+            <span data-i18n="optionsRulesAlsoAllowed"></span> <span class="hotkeys_combination">F1–F12</span> 
+            <span data-i18n="optionsRulesWithout"></span> <span class="mac-only"><span class="hotkeys_combination">Cmd</span>, </span>
+            <span class="hotkeys_combination">Ctrl</span> <span data-i18n="optionsRulesOr"></span> 
+            <span class="hotkeys_combination">Alt</span>;
+          </li>
+          <li>
+            <span data-i18n="optionsRulesSimultaneously"></span> 
+            <span class="mac-only"><span class="hotkeys_combination">Cmd</span>, </span>
+            <span class="hotkeys_combination">Ctrl</span><span data-i18n="optionsRulesAnd"></span> 
+            <span class="hotkeys_combination">Alt</span> <span data-i18n="optionsRulesCannot"></span>;
+          </li>
+          <li>
+            <span data-i18n="optionsRulesAllowed"></span> <span class="hotkeys_combination">Shift</span> 
+            <span data-i18n="optionsRulesInAdditionTo"></span> <span class="mac-only"><span class="hotkeys_combination">Cmd</span>, 
+            </span><span class="hotkeys_combination">Ctrl</span> <span data-i18n="optionsRulesOr"></span> 
+            <span class="hotkeys_combination">Alt</span>;
+          </li>
+          <li><span data-i18n="optionsRulesMultimedia"></span><span class="hotkeys_combination">MediaNextTrack</span>, <span class="hotkeys_combination">MediaPlayPause</span>, <span class="hotkeys_combination">MediaPrevTrack</span> <span data-i18n="optionsRulesAnd"></span> <span class="hotkeys_combination">MediaStop</span></li>
+          <div class="mac-only">
+            <li><span data-i18n="optionsRulesMultimediaMac"></span></li>
+          </div>
+        </ul>
+      </div>
+
+      <div class="options__list">
+        <div>
+          <label class="options__label" for="play">
+            <span data-i18n="optionsListPlay"></span>
+          </label>
+          <input class="option__input" type="text" name="play" id="play"
+            autocomplete="off" placeholder="Ctrl + Shift + O" />
+        </div>
+        <div>
+          <label class="options__label" for="next">
+            <span data-i18n="optionsListNext"></span>
+          </label>
+          <input class="option__input" type="text" name="next" id="next"
+            autocomplete="off" placeholder="Ctrl + Shift + L" />
+        </div>
+        <div>
+          <label class="options__label" for="prev">
+            <span data-i18n="optionsListPrev"></span>
+          </label>
+          <input class="option__input" type="text" name="prev" id="prev"
+            autocomplete="off" placeholder="Ctrl + Shift + K" />
+        </div>
+        <div>
+          <label class="options__label" for="forward">
+            <span data-i18n="optionsListForward"></span>
+          </label>
+          <input class="option__input" type="text" name="forward" id="forward"
+            autocomplete="off" placeholder="Ctrl + Shift + 8" />
+        </div>
+        <div>
+          <label class="options__label" for="backward">
+            <span data-i18n="optionsListBackward"></span>
+          </label>
+          <input class="option__input" type="text" name="backward" id="backward"
+            autocomplete="off" placeholder="Ctrl + Shift + 7" />
+        </div>
+        <div>
+          <label class="options__label" for="liked">
+            <span data-i18n="optionsListLiked"></span>
+          </label>
+          <input class="option__input" type="text" name="liked" id="liked"
+            autocomplete="off" placeholder="Ctrl + Shift + 0" />
+        </div>
+        <div>
+          <label class="options__label" for="disliked">
+            <span data-i18n="optionsListDisliked"></span>
+          </label>
+          <input class="option__input" type="text" name="disliked" id="disliked"
+            autocomplete="off" placeholder="Ctrl + Shift + 9" />
+        </div>
+        <div>
+          <label class="options__label" for="volumeUp">
+            <span data-i18n="optionsListVolumeUp"></span>
+          </label>
+          <input class="option__input" type="text" name="volumeUp"
+            id="volumeUp" autocomplete="off" placeholder="Ctrl + Shift + ↑" />
+        </div>
+        <div>
+          <label class="options__label" for="volumeDown">
+            <span data-i18n="optionsListVolumeDown"></span>
+          </label>
+          <input class="option__input" type="text" name="volumeDown"
+            id="volumeDown" autocomplete="off" placeholder="Ctrl + Shift + ↓" />
+        </div>
+      </div>
+
+      <button class="options__button" id="update">
+        <span data-i18n="optionsSave"></span>
+      </button>
+    </div>
+    <div class="options__section"></div>
+  </form>
+
+  <script src="options.js"></script>
+</body>
+
+</html>

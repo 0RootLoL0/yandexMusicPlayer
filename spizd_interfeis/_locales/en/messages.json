@@ -1,0 +1,291 @@
+{
+  "extensionName": {
+    "message": "Yandex Music Controls",
+    "description": "Name of the extension"
+  },
+
+  "extensionDescription": {
+    "message": "The plugin adds buttons to the toolbar to control Yandex.Music from any tab",
+    "description": "Description of the extension"
+  },
+
+  "actionTitle": {
+    "message": "Y.Music \u2014 controls",
+    "description": "Title of the icon button"
+  },
+
+  "optionsTitle": {
+    "message": "Settings",
+    "description": "Options page title"
+  },
+
+  "optionsHotkeys": {
+    "message": "Hotkeys",
+    "description": "Options page hotkeys subtitle"
+  },
+
+  "optionsReset": {
+    "message": "Restore defaults",
+    "description": "Reset Options button"
+  },
+
+  "optionsResetConfirm": {
+    "message": "Are you sure you want to reset hotkeys config?",
+    "description": "Reset Options confirmation"
+  },
+
+  "optionsYouCanSet": {
+    "message": "You can assign your combination for each action.",
+    "description": "Options page description"
+  },
+
+  "optionsSupportedKeysTitle": {
+    "message": "Supported keys",
+    "description": "Supported keys title"
+  },
+
+  "optionsKeyComma": {
+    "message": "",
+    "description": "Comma key (no text in English)"
+  },
+
+  "optionsKeyPeriod": {
+    "message": "",
+    "description": "Period key (no text in English)"
+  },
+
+  "optionsKeySpace": {
+    "message": "",
+    "description": "Space key (no text in English)"
+  },
+
+  "optionsKeyArrows": {
+    "message": "arrow keys",
+    "description": "Arrow keys"
+  },
+
+  "optionsRulesRequired": {
+    "message": "Combinations must include",
+    "description": "Rules: required keys"
+  },
+
+  "optionsRulesOr": {
+    "message": "or",
+    "description": "Or"
+  },
+
+  "optionsRulesSimultaneously": {
+    "message": "",
+    "description": "Simultaneously (no text in English)"
+  },
+
+  "optionsRulesAnd": {
+    "message": ", and",
+    "description": "And"
+  },
+
+  "optionsRulesCannot": {
+    "message": "can’t be used simultaneously",
+    "description": "Can not be used simultaneously"
+  },
+
+  "optionsRulesAllowed": {
+    "message": "You can use",
+    "description": "You can use …"
+  },
+
+  "optionsRulesInAdditionTo": {
+    "message": "in addition to",
+    "description": "… in addition to …"
+  },
+
+  "optionsRulesAlsoAllowed": {
+    "message": "However, you can use",
+    "description": "Also allowed …"
+  },
+
+  "optionsRulesWithout": {
+    "message": "without",
+    "description": "… without …"
+  },
+
+  "optionsRulesMultimedia": {
+    "message": "You can use media keys: ",
+    "description": "You can use media keys"
+  },
+
+  "optionsRulesMultimediaMac": {
+    "message": "Unfortunately, Firefox doesn’t support multimedia keys yet in macOS.",
+    "description": "Multimedia keys are not supported in macOS"
+  },
+
+  "optionsListNotifications": {
+    "message": "Enable Notifications",
+    "description": "Notifications checkbox"
+  },
+
+  "optionsListNotificationsDisabled": {
+    "message": "🙈 Notifications are not displayed",
+    "description": "Notifications checkbox description disabled"
+  },
+
+  "optionsListNotificationsEnabled": {
+    "message": "🙉 Notifications appear when changing tracks",
+    "description": "Notifications checkbox description enabled"
+  },
+
+  "optionsListPlay": {
+    "message": "Play or pause:",
+    "description": "Play or pause"
+  },
+
+  "optionsListNext": {
+    "message": "Next track:",
+    "description": "Next track"
+  },
+
+  "optionsListPrev": {
+    "message": "Previous track:",
+    "description": "Prev track"
+  },
+
+  "optionsListForward": {
+    "message": "Seek forward:",
+    "description": "Seek forward"
+  },
+
+  "optionsListBackward": {
+    "message": "Seek backward:",
+    "description": "Seek backward"
+  },
+
+  "optionsListLiked": {
+    "message": "Like track:",
+    "description": "Like track"
+  },
+
+  "optionsListDisliked": {
+    "message": "Dislike track:",
+    "description": "Dislike track"
+  },
+
+  "optionsListVolumeUp": {
+    "message": "Volume up:",
+    "description": "Volume up"
+  },
+
+  "optionsListVolumeDown": {
+    "message": "Volume down:",
+    "description": "Volume down"
+  },
+
+  "optionsSave": {
+    "message": "Save hotkeys",
+    "description": "Save settings"
+  },
+
+  "controlsCover": {
+    "message": "Album cover — ",
+    "description": "Album cover"
+  },
+
+  "controlsChoosePlaylist": {
+    "message": "Select a playlist in Yandex.Music",
+    "description": "Choose playlist"
+  },
+
+  "controlsOpen": {
+    "message": "Open Yandex.Music",
+    "description": "Open Yandex.Music tab button"
+  },
+
+  "controlsDisliked": {
+    "message": "Dislike [$KEY$]",
+    "description": "Dislike button",
+    "placeholders": {
+      "key" : {
+        "content" : "$1"
+      }
+    }
+  },
+
+  "controlsLiked": {
+    "message": "Like [$KEY$]",
+    "description": "Like button",
+    "placeholders": {
+      "key" : {
+        "content" : "$1"
+      }
+    }
+  },
+
+  "controlsPlay": {
+    "message": "Play [$KEY$]",
+    "description": "Play button",
+    "placeholders": {
+      "key" : {
+        "content" : "$1"
+      }
+    }
+  },
+
+  "controlsPause": {
+    "message": "Pause [$KEY$]",
+    "description": "Pause button",
+    "placeholders": {
+      "key" : {
+        "content" : "$1"
+      }
+    }
+  },
+
+  "controlsNext": {
+    "message": "Next track [$KEY$]",
+    "description": "Next track button",
+    "placeholders": {
+      "key" : {
+        "content" : "$1"
+      }
+    }
+  },
+
+  "controlsPrev": {
+    "message": "Previous track [$KEY$]",
+    "description": "Previous track button",
+    "placeholders": {
+      "key" : {
+        "content" : "$1"
+      }
+    }
+  },
+
+  "messagesManyTabs": {
+    "message": "Multiple Yandex.Music tabs detected. Leave single one",
+    "description": "Such error, many tabs"
+  },
+
+  "messagesHotKeys": {
+    "message": "It’s better with keyboard shortcuts",
+    "description": "Configure hotkeys"
+  },
+
+  "messagesNotifications": {
+    "message": "Now support Notifications",
+    "description": "Configure notifications"
+  },
+
+  "messagesSeek": {
+    "message": "Seek Forward and Backward",
+    "description": "Configure seek hotkeys"
+  },
+
+  "messagesConfigure": {
+    "message": "Configure",
+    "description": "Go to options"
+  },
+
+  "messagesDismiss": {
+    "message": "Dismiss",
+    "description": "Dismiss button"
+  }
+}

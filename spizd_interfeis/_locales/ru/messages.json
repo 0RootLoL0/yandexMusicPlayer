@@ -1,0 +1,293 @@
+{
+  "extensionName": {
+    "message": "Yandex Music Controls",
+    "description": "Name of the extension"
+  },
+
+  "extensionDescription": {
+    "message": "Плагин добавляет кнопки на панель инструментов, позволяющие управлять Яндекс Музыкой из любой вкладки",
+    "description": "Description of the extension"
+  },
+
+  "actionTitle": {
+    "message": "Я.Музыка \u2014 управление",
+    "description": "Title of the icon button"
+  },
+
+  "optionsTitle": {
+    "message": "Настройки",
+    "description": "Options page title"
+  },
+
+  "optionsHotkeys": {
+    "message": "Горячие клавиши",
+    "description": "Options page hotkeys subtitle"
+  },
+
+  "optionsReset": {
+    "message": "Восстановить по умолчанию",
+    "description": "Reset Options button"
+  },
+
+  "optionsResetConfirm": {
+    "message": "Сбросить настройки горячих клавиш?",
+    "description": "Reset Options confirmation"
+  },
+
+  "optionsYouCanSet": {
+    "message": "Вы можете назначить свою комбинацию на каждое действие.",
+    "description": "Options page description"
+  },
+
+  "optionsSupportedKeysTitle": {
+    "message": "Поддерживаемые клавиши",
+    "description": "Supported keys title"
+  },
+
+  "optionsKeyComma": {
+    "message": " (запятая)",
+    "description": "Comma key"
+  },
+
+  "optionsKeyPeriod": {
+    "message": " (точка)",
+    "description": "Period key"
+  },
+
+  "optionsKeySpace": {
+    "message": " (пробел)",
+    "description": "Space key"
+  },
+
+  "optionsKeyArrows": {
+    "message": "стрелочки",
+    "description": "Arrow keys"
+  },
+
+  "optionsRulesRequired": {
+    "message": "Комбинации обязательно должны включать",
+    "description": "Rules: required keys"
+  },
+
+  "optionsRulesOr": {
+    "message": "или",
+    "description": "Or"
+  },
+
+  "optionsRulesSimultaneously": {
+    "message": "Одновременно",
+    "description": "Simultaneously"
+  },
+
+  "optionsRulesAnd": {
+    "message": " и",
+    "description": "And"
+  },
+
+  "optionsRulesCannot": {
+    "message": "нельзя",
+    "description": "Can not"
+  },
+
+  "optionsRulesAllowed": {
+    "message": "Можно использовать",
+    "description": "You can use …"
+  },
+
+  "optionsRulesInAdditionTo": {
+    "message": "в дополнение к",
+    "description": "… in addition to …"
+  },
+
+  "optionsRulesAlsoAllowed": {
+    "message": "Хотя можно использовать клавиши",
+    "description": "Also allowed …"
+  },
+
+  "optionsRulesWithout": {
+    "message": "и без",
+    "description": "… without …"
+  },
+
+  "optionsRulesMultimedia": {
+    "message": "Доступы и мультимедийные клавиши: ",
+    "description": "You can use media keys"
+  },
+
+  "optionsRulesMultimediaMac": {
+    "message": "Однако, Firefox пока что не поддерживает мультимедийные клавиши в macOS.",
+    "description": "Multimedia keys are not supported in macOS"
+  },
+
+  "optionsListNotifications": {
+    "message": "Включить Уведомления",
+    "description": "Notifications checkbox"
+  },
+
+
+  "optionsListNotificationsDisabled": {
+    "message": "🙈 Уведомления о текущем треке не отображаются",
+    "description": "Notifications checkbox description disabled"
+  },
+  
+  "optionsListNotificationsEnabled": {
+    "message": "🙉 Уведомления появляются при смене трека",
+    "description": "Notifications checkbox description enabled"
+  },
+
+  "optionsListPlay": {
+    "message": "Проигрывание или пауза:",
+    "description": "Play or pause"
+  },
+
+  "optionsListNext": {
+    "message": "Следующий трек:",
+    "description": "Next track"
+  },
+
+  "optionsListPrev": {
+    "message": "Предыдущий трек:",
+    "description": "Prev track"
+  },
+
+  "optionsListForward": {
+    "message": "Перемотка вперёд:",
+    "description": "Seek forward"
+  },
+
+  "optionsListBackward": {
+    "message": "Перемотка назад:",
+    "description": "Seek backward"
+  },
+
+
+  "optionsListLiked": {
+    "message": "Нравится:",
+    "description": "Like track"
+  },
+
+  "optionsListDisliked": {
+    "message": "Не нравится:",
+    "description": "Dislike track"
+  },
+
+  "optionsListVolumeUp": {
+    "message": "Громче:",
+    "description": "Volume up"
+  },
+
+  "optionsListVolumeDown": {
+    "message": "Тише:",
+    "description": "Volume down"
+  },
+
+  "optionsSave": {
+    "message": "Сохранить горячие клавиши",
+    "description": "Save settings"
+  },
+
+  "controlsCover": {
+    "message": "Обложка альбома — ",
+    "description": "Album cover"
+  },
+
+  "controlsChoosePlaylist": {
+    "message": "Выберите плейлист в Яндекс.Музыке",
+    "description": "Choose playlist"
+  },
+
+  "controlsOpen": {
+    "message": "Открыть Я.Музыку",
+    "description": "Open Yandex.Music tab button"
+  },
+
+  "controlsDisliked": {
+    "message": "Не нравится [$KEY$]",
+    "description": "Dislike button",
+    "placeholders": {
+      "key" : {
+        "content" : "$1"
+      }
+    }
+  },
+
+  "controlsLiked": {
+    "message": "Нравится [$KEY$]",
+    "description": "Like button",
+    "placeholders": {
+      "key" : {
+        "content" : "$1"
+      }
+    }
+  },
+
+  "controlsPlay": {
+    "message": "Играть [$KEY$]",
+    "description": "Play button",
+    "placeholders": {
+      "key" : {
+        "content" : "$1"
+      }
+    }
+  },
+
+  "controlsPause": {
+    "message": "Пауза [$KEY$]",
+    "description": "Pause button",
+    "placeholders": {
+      "key" : {
+        "content" : "$1"
+      }
+    }
+  },
+
+  "controlsNext": {
+    "message": "Следующий трек [$KEY$]",
+    "description": "Next track button",
+    "placeholders": {
+      "key" : {
+        "content" : "$1"
+      }
+    }
+  },
+
+  "controlsPrev": {
+    "message": "Предыдущий трек [$KEY$]",
+    "description": "Previous track button",
+    "placeholders": {
+      "key" : {
+        "content" : "$1"
+      }
+    }
+  },
+
+  "messagesManyTabs": {
+    "message": "Вы открыли несколько вкладок с Яндекс.Музыкой. Оставьте одну",
+    "description": "Such error, many tabs"
+  },
+
+  "messagesHotKeys": {
+    "message": "С горячими клавишами удобнее",
+    "description": "Configure hotkeys"
+  },
+
+  "messagesNotifications": {
+    "message": "Уведомления при переключении треков",
+    "description": "Configure notifications"
+  },
+
+  "messagesSeek": {
+    "message": "Перемотка горячими клавишами",
+    "description": "Configure seek hotkeys"
+  },
+
+  "messagesConfigure": {
+    "message": "Настроить",
+    "description": "Go to options"
+  },
+
+  "messagesDismiss": {
+    "message": "Скрыть",
+    "description": "Dismiss button"
+  }
+}

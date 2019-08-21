@@ -1,0 +1,106 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_extensionName__",
+  "version": "1.7",
+  "description": "__MSG_extensionDescription__",
+  "homepage_url": "http://squirrel-research.ru",
+  "default_locale": "en",
+  "icons": {
+    "48": "icon-48.png",
+    "96": "icon-96.png"
+  },
+  "applications": {
+    "gecko": {
+      "id": "kb@kernel-it.ru",
+      "strict_min_version": "60.0"
+    }
+  },
+  "browser_action": {
+    "default_icon": "icon-48-panel-play.png",
+    "default_title": "__MSG_actionTitle__",
+    "default_popup": "playerControl.html"
+  },
+  "background": {
+    "scripts": [
+      "background-script.js"
+    ]
+  },
+  "commands": {
+    "next": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+L"
+      },
+      "description": "Send a 'next' action"
+    },
+    "prev": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+K"
+      },
+      "description": "Send a 'prev' action"
+    },
+    "forward": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+8"
+      },
+      "description": "Send a 'forward' action"
+    },
+    "backward": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+7"
+      },
+      "description": "Send a 'backward' action"
+    },
+    "play": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+O"
+      },
+      "description": "Send a 'play' action (toggles play/pause)"
+    },
+    "volumeUp": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Up"
+      },
+      "description": "Send a 'volumeUp' action"
+    },
+    "volumeDown": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Down"
+      },
+      "description": "Send a 'volumeDown' action"
+    },
+    "liked": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+0"
+      },
+      "description": "Send a 'liked' action"
+    },
+    "disliked": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+9"
+      },
+      "description": "Send a 'disliked' action"
+    }
+  },
+  "options_ui": {
+    "page": "options.html",
+    "browser_style": true
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.music.yandex.ru/*",
+        "*://*.music.yandex.net/*",
+        "*://*.music.yandex.com/*",
+        "*://*.music.yandex.ua/*",
+        "*://*.music.yandex.by/*"
+      ],
+      "js": [
+        "controls.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "notifications",
+    "storage"
+  ]
+}
